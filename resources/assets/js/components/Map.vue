@@ -28,7 +28,7 @@ export default {
         }).addTo(myMap);
 
         //set up Pusher
-        var pusher = new Pusher("your_pusher_app_key", {
+        var pusher = new Pusher("189b89efe1399dd42689", {
           cluster: "eu",
           forceTLS: false
         });
